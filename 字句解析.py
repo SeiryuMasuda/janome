@@ -3,7 +3,7 @@ from janome.tokenizer import Tokenizer
 
 t = Tokenizer()
 
-text = '増田は千葉県在住の男性です。'
+text = input('文章を入力：')
 
 for token in t.tokenize(text):
     #if token.part_of_speech.split(',')[0] == '名詞':
